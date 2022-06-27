@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
     <title>Remaja Masjid Thoyyibah</title>
   </head>
@@ -33,13 +33,13 @@
               <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="event.html">Event</a>
+              <a class="nav-link active fw-bold" href="event.html">Event</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="member.html">Member</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active fw-bold" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -47,37 +47,27 @@
     </nav>
     <!-- End Navbar -->
 
-    <!-- Contact -->
-    <section id="contact">
+    <!-- Footer -->
+    <footer style="background-color: #0d413f" class="text-white text-center pb-2 mt-5">
+      <h5 class="pt-3 fw-bold">Let's Get in Touch</h5>
       <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2 class="fw-bold">Contact us</h2>
+        <div class="row">
+          <div class="boxbesar clearfix ms-auto mt-3">
+            <a href="https://www.instagram.com/officialrmt_/" target="_blank">
+              <div class="box1">
+                <i class="bi bi-instagram link-light"></i>
+              </div>
+            </a>
+            <div class="box2">
+              <a href=""><i class="bi bi-facebook link-light"></i></a>
+            </div>
+            <div class="clear"></div>
           </div>
         </div>
-        <div class="row justify-content-center mb-3">
-          <div class="col-md-6">
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" />
-              </div>
-              <div class="mb-3">
-                <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
-              </div>
-
-              <button type="submit" class="btn btn-primary">Kirim</button>
-            </form>
-          </div>
-        </div>
+        <p class="mt-3">@copyright by <a href="https://www.instagram.com/officialrmt_/" class="text-white fw-bold text-decoration-none">Remaja Masjid Thoyyibah</a>, 2022</p>
       </div>
-    </section>
-    <!-- Akhir Contact -->
+    </footer>
+    <!-- End Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
