@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MemberController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,11 +25,7 @@ Route::get('/event', function () {
         "title" => "Event RMT"
     ]);
 });
-Route::get('/member', function () {
-    return view('member', [
-        "title" => "Member RMT"
-    ]);
-});
+Route::get('/members', [MemberController::class, 'show']);
 Route::get('/contact', function () {
     return view('contact', [
         "title" => "Contact RMT"

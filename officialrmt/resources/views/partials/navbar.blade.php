@@ -14,7 +14,7 @@
             <a class="nav-link {{ ($title == "Event RMT") ? 'active' : '' }}" href="/event">Event</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ ($title == "Member RMT") ? 'active' : '' }}" href="/member">Member</a>
+            <a class="nav-link {{ ($title == "Member RMT") ? 'active' : '' }}" href="/members">Member</a>
           </li>
           <li class="nav-item">
             <a class="nav-link {{ ($title == "Contact RMT") ? 'active' : '' }}" href="/contact">Contact</a>
