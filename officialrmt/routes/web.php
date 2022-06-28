@@ -14,15 +14,23 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('index', [
+        "title" => "Home"
+    ]);
 });
 
 Route::get('/event', function () {
-    return view('event');
+    return view('event', [
+        "title" => "Event RMT"
+    ]);
 });
 Route::get('/member', function () {
-    return view('member');
+    return view('member', [
+        "title" => "Member RMT"
+    ]);
 });
 Route::get('/contact', function () {
-    return view('contact');
+    return view('contact', [
+        "title" => "Contact RMT"
+    ]);
 });
