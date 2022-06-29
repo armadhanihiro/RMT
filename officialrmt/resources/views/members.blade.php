@@ -16,9 +16,9 @@
           </div>
           <div class="row justify-content-center">
             @foreach ($members as $member)
-              <div class="col-md-4 mb-5">
+              <div class="col-md-3 mb-5">
                 <div class="card">
-                    <img src="img/{{ $member["image"] }}" class="card-img-top" alt="Heart Gailure" />
+                    <img src="img/{{ $member["image"] }}" class="card-img-top" alt="RMT Member" />
                     <div class="card-body">
                       <p class="card-text mb-0 fw-bold text-center">{{ $member["nama"] }}</p>
                       <p class="text-center">{{ $member["jabatan"] }}</p>

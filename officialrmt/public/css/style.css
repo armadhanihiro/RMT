@@ -6,9 +6,11 @@ section {
 }
 
 #members img {
-    width: 355px;
-    height: 350px;
+    height: 320px;
     border-radius: 5px;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .card {
@@ -20,6 +22,8 @@ section {
     width: 150px;
     margin: auto;
     padding: 5px;
+    bottom: 10px;
+    right: 20px;
 }
 
 .album {
