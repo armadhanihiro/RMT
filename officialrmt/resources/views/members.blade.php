@@ -18,7 +18,7 @@
             @foreach ($members as $member)
               <div class="col-md-3 mb-5">
                 <div class="card">
-                    <img src="img/{{ $member["image"] }}" class="card-img-top" alt="RMT Member" />
+                    <img src="img/member/{{ $member["image"] }}" class="card-img-top" alt="RMT Member" />
                     <div class="card-body">
                       <p class="card-text mb-0 fw-bold text-center">{{ $member["nama"] }}</p>
                       <p class="text-center">{{ $member["jabatan"] }}</p>
@@ -29,7 +29,7 @@
                           </div>
                         </a>
                         <div class="box2">
-                          <a href="{{ $member["facebook"] }}"><i class="bi bi-facebook link-light"></i></a>
+                          <a href="{{ $member["facebook"] }}" target="_blank"><i class="bi bi-facebook link-light"></i></a>
                         </div>
                         <div class="clear"></div>
                       </div>
