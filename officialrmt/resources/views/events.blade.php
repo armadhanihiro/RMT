@@ -20,7 +20,8 @@
           </div>
         </div>
       </div>
-    </div><!-- End Blog Header -->
+    </div>
+    <!-- End Blog Header -->
 
     <!-- ======= Blog Page ======= -->
     <div class="blog-page area-padding">
@@ -139,10 +140,6 @@
                     </a>
                   </div>
                   <div class="blog-meta">
-                    <span class="comments-type">
-                      <i class="bi bi-chat"></i>
-                      <a href="#">11 comments</a>
-                    </span>
                     <span class="date-type">
                       <i class="bi bi-calendar"></i>2016-03-05 / 09:10:16
                     </span>
@@ -169,10 +166,6 @@
                     </a>
                   </div>
                   <div class="blog-meta">
-                    <span class="comments-type">
-                      <i class="bi bi-chat"></i>
-                      <a href="#">7 comments</a>
-                    </span>
                     <span class="date-type">
                       <i class="bi bi-calendar"></i>2016-03-05 / 09:10:16
                     </span>
@@ -199,10 +192,6 @@
                     </a>
                   </div>
                   <div class="blog-meta">
-                    <span class="comments-type">
-                      <i class="bi bi-chat"></i>
-                      <a href="#">13 comments</a>
-                    </span>
                     <span class="date-type">
                       <i class="bi bi-calendar"></i>2016-03-05 / 09:10:16
                     </span>
@@ -229,10 +218,6 @@
                     </a>
                   </div>
                   <div class="blog-meta">
-                    <span class="comments-type">
-                      <i class="bi bi-chat"></i>
-                      <a href="#">1 comments</a>
-                    </span>
                     <span class="date-type">
                       <i class="bi bi-calendar"></i>2016-03-05 / 09:10:16
                     </span>
@@ -259,10 +244,6 @@
                     </a>
                   </div>
                   <div class="blog-meta">
-                    <span class="comments-type">
-                      <i class="bi bi-chat"></i>
-                      <a href="#">10 comments</a>
-                    </span>
                     <span class="date-type">
                       <i class="bi bi-calendar"></i>2016-03-05 / 09:10:16
                     </span>

@@ -1,7 +1,8 @@
 <?php
 
-use App\Http\Controllers\MemberController;
+use App\Models\Category;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MemberController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,9 +26,31 @@ Route::get('/event', function () {
         "title" => "Event RMT"
     ]);
 });
+
+Route::get('/event_detail', function () {
+    return view('event_detail', [
+        "title" => "Event Detail RMT"
+    ]);
+});
+
 Route::get('/members', [MemberController::class, 'show']);
 Route::get('/contact', function () {
     return view('contact', [
         "title" => "Contact RMT"
     ]);
 });
+
+Route::get('/categories', function() {
+    return view('categories', [
+        'title' => 'Post Categories',
+        'categories' => Category::all(),
+    ]);
+});
+
+Route::get('/categories/{category:slug}', function(Category $category) {
+    return view('event_detail', [
+        'title' => $category->name,
+        'posts' => $category->posts,
+        'category' => $category->name
+    ]);
+}); 
